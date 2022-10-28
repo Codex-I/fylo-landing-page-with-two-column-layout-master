@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ body{
+
+  
+
+
+} 
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+
+.navlinks{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.nav-item{
+  list-style-type: none;
+}
+.navlink{
+  text-decoration: none;
+  color: black;
+}
+.landing-page{
+  width: 93%;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding: 50px 30px;
+}
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form{
+  display: flex;
+  gap: 10px;
+}
+.email{
+  padding-left: 5px;
+  font-weight: 700;
+}
+.btn{
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  border: 0;
+  outline: none;
+  padding: 10px 30px ;
+  border-radius: 3px;
+}
+/* second column */
+.land{
+  background-image: url(../images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    gap: 50px;
+    padding: 68px 70px;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 66%;
+}
+.card{
+  border-radius: 2px;
+    box-shadow: -4px -4px 5px grey;
+    padding: 10px 30px;
+    width: 73%;
+    
+    animation-name: color-change;
+    animation-duration: 10s;
+    animation-delay: 0.055s;
+    animation-iteration-count: infinite;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  position: relative;
+  bottom: 21px;
+  left: 46px;
+}
+.kyle {
+  border-radius: 30px;
+    width: 12%;
+    display: inline;
+    position: relative;
+    top: 17px;
+}
+
+ footer{
+  background-color: #08192b;
+    color: #869fb2;
+    padding: 57px 0px 61px;
+    font-size: 14px;
+    margin: 0;
+    border: none;
+}
+.container{
+  max-width: 1520px;
+    padding: 0 60px;
+    margin: 0 auto;
+}
+.log{
+  display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.mini-cont{
+  display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    margin: 4px;
+}
+ul {
+  margin: 0;
+    padding: 0;
+    display: inline-grid;
+    gap: 10px;
+}
+li {
+  display: inline-block;
+}
+.first-col {
+  margin-bottom: 30px;
+  width: 20%; 
+}
+.mid-col {
+  width: 20%;
+}
+.logo-col {
+  text-align: right;
+    width: 35%;
+}
+.socials {
+  margin-bottom: 10px;
+  width: 41vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* code for animating different colors on the card */
+@keyframes color-change {
+  0%   {background-color: red; color: white;}
+  25%  {background-color: yellow; color: turquoise;}
+  50%  {background-color: blue; color: yellow;}
+  100% {background-color: green; color: black;}
+}
+
